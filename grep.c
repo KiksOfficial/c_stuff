@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
   char buffer[1024];
 
   if (argc < 3) {
-    printf("Not enough args\n");
+    perror("grep-btw");
     return 1;
   }
   FILE *fptr = fopen(argv[1], "r");

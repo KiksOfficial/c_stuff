@@ -15,6 +15,7 @@ int main(int argc, char *argv[]) {
   while ((entry = readdir(dir)) != NULL) {
     printf("%s\t", entry->d_name);
   }
+  printf("\n");
 
   return 0;
 }
