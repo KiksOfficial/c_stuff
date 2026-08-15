@@ -3,4 +3,5 @@ test
 cat 
 grep
 ls
+vec
 count
