@@ -68,3 +68,11 @@ int remove_value(Vector *vec, int index) {
 
   return 0;
 }
+
+int display_vec(Vector *vec) {
+  for (size_t i = 0; i < vec->size; i++) {
+    printf("%d ", vec->data[i]);
+  }
+  printf("\n");
+  return 0;
+}
